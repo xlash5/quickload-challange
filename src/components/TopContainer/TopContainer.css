@@ -1,0 +1,37 @@
+.TopContainer{
+    display: flex; 
+    flex-direction: row; 
+    height: 100.0;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: #7ed6df;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.SearchContainer{
+    display: flex; 
+    flex-direction: row; 
+}
+
+.MyInput{
+    border-radius: 18px;
+    border-color: #22a6b3;
+    margin-top:15px;
+    margin-bottom:15px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .TopContainer {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    .TopContainer {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,32 @@
+.Card{
+    display: flex;
+    flex-direction: column; 
+    height: 260px; 
+    width: 180px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 5px; 
+    border-radius: 5px;
+    overflow: hidden;
+    background-color:#7ed6df;
+}
+
+.BreakWord{
+    word-wrap: break-word;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.Seperator{
+    border-top: 1px solid #22a6b3;
+}
+
+.NameText{
+    font-weight:600;
+    font-style: italic;
+}
+
+.TextContainer{
+    padding-left: 10.0; 
+    padding-right: 10.0;
+}

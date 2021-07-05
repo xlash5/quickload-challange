@@ -1,0 +1,29 @@
+.Screen{
+    display: flex; 
+    flex-direction: column;
+}
+
+.UserContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: center;
+}
+
+.Loader{
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Seperator{
+    border-top: 1px solid #4834d4;
+}
+
+@media only screen and (max-width: 1024px) {
+    .UserContainer {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}

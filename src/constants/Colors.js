@@ -1,0 +1,15 @@
+export const Palette = {
+    middleBlue: '#7ed6df',
+    greenlandGreen: '#22a6b3',
+    steelPink: '#be2edd',
+    heliotrope: '#e056fd',
+    spicedNectarine: '#ffbe76',
+    quinceJelly: '#f0932b',
+    wizardGrey: '#535c68',
+    juneBud: '#badc58',
+    pureApple: '#6ab04c',
+    beekeper: '#f6e58d',
+    turbo: '#f9ca24',
+    exodusFruit: '#686de0',
+    blurple: '#4834d4',
+};
